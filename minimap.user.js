@@ -59,7 +59,7 @@ function  init(){
         '<canvas id="minimap-board" style="width: 100%; height: 100%;z-index:2;position:absolute;top:0;left:0;"></canvas>' +
         '<canvas id="minimap-cursor" style="width: 100%; height: 100%;z-index:3;position:absolute;top:0;left:0;"></canvas>' +
         '</div><div id="minimap-config" style="line-height:20px; background-color:#080808;">' +
-        '<span id="hide-map" style="cursor:pointer;">–°–∫—Ä—ã—Ç—å' +
+        '<span id="hide-map" style="cursor:pointer;">ÑRÑ{ÑÇÑçÑÑÑé' +
         '</span> | <span id="follow-mouse" style="cursor:pointer;"Follow mous' +
         '</span> | Zoom: <span id="zoom-plus" style="cursor:pointer;font-weight:bold;">+</span>  /  ' +
         '<span id="zoom-minus" style="cursor:pointer;font-weight:bold;">-</span>'		+
@@ -94,7 +94,7 @@ function  init(){
         document.getElementById("minimap-box").style.display = "none";
         document.getElementById("minimap-config").style.display = "none";
         document.getElementById("minimap-text").style.display = "block";
-        document.getElementById("minimap-text").innerHTML = "–ü–æ–∫–∞–∑–∞—Ç—å";
+        document.getElementById("minimap-text").innerHTML = "ÑPÑÄÑ{ÑpÑxÑpÑÑÑé";
         document.getElementById("minimap-text").style.cursor = "pointer";
     };
     document.getElementById("minimap-text").onclick = function () {
@@ -290,7 +290,7 @@ function loadTemplates() {
         if (zooming_in == false && zooming_out == false) {
             document.getElementById("minimap-box").style.display = "none";
             document.getElementById("minimap-text").style.display = "block";
-            document.getElementById("minimap-text").innerHTML = "–∑–¥–µ—Å—å –Ω–∏—á–µ–≥–æ –Ω–µ—Ç—É";
+            document.getElementById("minimap-text").innerHTML = "ÑxÑtÑuÑÉÑé Ñ~ÑyÑâÑuÑsÑÄ Ñ~ÑuÑÑÑÖ";
         }
     } else {
         document.getElementById("minimap-box").style.display = "block";
