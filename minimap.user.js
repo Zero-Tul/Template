@@ -14,7 +14,7 @@ Number.prototype.between = function(a, b) {
   return this > min && this < max;
 };
 var range = 25;
-window.baseTepmlateUrl = 'https://raw.githubusercontent.com/RonyRam/minikarta/master/';
+window.baseTepmlateUrl = 'https://raw.githubusercontent.com/nakazan/minikarta/master/';
 
 setTimeout(init, 3000);
 
@@ -59,7 +59,7 @@ function  init(){
         '<canvas id="minimap-board" style="width: 100%; height: 100%;z-index:2;position:absolute;top:0;left:0;"></canvas>' +
         '<canvas id="minimap-cursor" style="width: 100%; height: 100%;z-index:3;position:absolute;top:0;left:0;"></canvas>' +
         '</div><div id="minimap-config" style="line-height:20px; background-color:#080808;">' +
-        '<span id="hide-map" style="cursor:pointer;">„R„{„‚„„„„' +
+        '<span id="hide-map" style="cursor:pointer;">â€Râ€{â€â€šâ€Ââ€â€â€Å½' +
         '</span> | <span id="follow-mouse" style="cursor:pointer;"Follow mous' +
         '</span> | Zoom: <span id="zoom-plus" style="cursor:pointer;font-weight:bold;">+</span>  /  ' +
         '<span id="zoom-minus" style="cursor:pointer;font-weight:bold;">-</span>'		+
@@ -94,7 +94,7 @@ function  init(){
         document.getElementById("minimap-box").style.display = "none";
         document.getElementById("minimap-config").style.display = "none";
         document.getElementById("minimap-text").style.display = "block";
-        document.getElementById("minimap-text").innerHTML = "„P„€„{„p„x„p„„„";
+        document.getElementById("minimap-text").innerHTML = "â€Pâ€â‚¬â€{â€pâ€xâ€pâ€â€â€Å½";
         document.getElementById("minimap-text").style.cursor = "pointer";
     };
     document.getElementById("minimap-text").onclick = function () {
@@ -290,7 +290,7 @@ function loadTemplates() {
         if (zooming_in == false && zooming_out == false) {
             document.getElementById("minimap-box").style.display = "none";
             document.getElementById("minimap-text").style.display = "block";
-            document.getElementById("minimap-text").innerHTML = "„x„t„u„ƒ„ „~„y„‰„u„s„€ „~„u„„„…";
+            document.getElementById("minimap-text").innerHTML = "â€xâ€tâ€uâ€Æ’â€Å½ â€~â€yâ€â€°â€uâ€sâ€â‚¬ â€~â€uâ€â€â€â€¦";
         }
     } else {
         document.getElementById("minimap-box").style.display = "block";
