@@ -3,14 +3,14 @@
     "name": "SS.png",
     "x": 3650,
     "y": -2650,
-    "width": 243,
-    "height": 250
+    "width": 250,
+    "height": 243
    },
   "KiberPony": {
    "name": "KiberPony.png",
     "x": 3614,
     "y": -2226,
-    "width": 387,
-    "height": 476
+    "width": 476,
+    "height": 387
    }
 }
