@@ -6,11 +6,20 @@
     "width": 250,
     "height": 243
    },
+
   "KiberPony": {
    "name": "KiberPony.png",
     "x": 3614,
     "y": -2226,
     "width": 476,
     "height": 387
+   },
+
+  "ART": {
+    "name": "ART.png",
+    "x": -2746,
+    "y": -1847,
+    "width": 208,
+    "height": 95
    }
 }
